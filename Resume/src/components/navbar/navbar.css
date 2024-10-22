@@ -23,7 +23,7 @@ nav ul {
 
 nav ul li {
   position: relative;
-  padding: 1rem;
+  padding: 1.5rem;
 }
 
 nav ul li a {
@@ -60,4 +60,9 @@ svg {
 
 a {
   scroll-behavior: smooth;
+}
+
+#resume {
+  height: 2.5rem;
+  width: 2.5rem;
 }
