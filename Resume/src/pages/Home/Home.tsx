@@ -1,6 +1,7 @@
 import Navbar from "../../components/navbar/Navbar";
 import me from "../../assets/oscar.png";
 import "./home.css";
+import TypingName from "../../components/typingname/Typingname";
 
 export default function Home() {
   return (
@@ -8,16 +9,18 @@ export default function Home() {
       <Navbar />
       <main>
         <div className="container">
-          <section className="introduction center">
+          <section id="home" className="introduction center">
             <article>
-              <img src={me} alt="Image of bob" />
-              <h1>Hi, my name is Oscar La</h1>
-              <p>Student & Future Frontend-developer</p>
-              <p>"side before self every time" - Billy Bremner</p>
+              <img src={me} alt="Image" />
+              <TypingName />
+              <p className="student">Student & Future Frontend-developer</p>
+              <p className="quote">
+                "side before self every time" - Billy Bremner
+              </p>
             </article>
           </section>
 
-          <section className="description center">
+          <section id="aboutme" className="description center">
             <article>
               <h1>Skills & Mindset</h1>
               <div className="lists">
@@ -63,7 +66,7 @@ export default function Home() {
             </article>
           </section>
 
-          <section className="contact center">
+          <section id="contact" className="contact center">
             <article>
               <div className="name">
                 <h1>Oscar La | 羅俊義</h1>

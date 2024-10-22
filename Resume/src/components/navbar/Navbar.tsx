@@ -6,15 +6,16 @@ export default function Navbar() {
       <nav>
         <h1>羅俊義</h1>
         <ul>
-          <a href="">
-            <li>Home</li>
-          </a>
-          <a href="#description">
-            <li>About me</li>
-          </a>
-          <a href="">
-            <li>Contact</li>
-          </a>
+          <li>
+            <a href="#home">Home</a>
+          </li>
+
+          <li>
+            <a href="#aboutme">About Me</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
         </ul>
         <aside>
           <svg

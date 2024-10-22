@@ -46,6 +46,23 @@ section {
   width: 15rem;
 }
 
+.introduction h1 {
+  margin: 1%;
+}
+
+.introduction p {
+  margin: 1%;
+}
+
+.student {
+  font-size: 1rem;
+}
+
+.quote {
+  color: gray;
+  font-size: 0.75rem;
+}
+
 .description article {
   display: flex;
   flex-direction: column;
